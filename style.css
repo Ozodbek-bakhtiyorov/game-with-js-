@@ -148,8 +148,23 @@ body {
   }
 }
 
-@media (max-width: 500px) {
-  .choice {
-    font-size: 80px;
+@media (max-width: 768px) {
+  .choices {
+    grid-template-columns: repeat(1,1fr);
+  }
+  .modal-content{
+    width: 250px;
+
+  }
+  .modal-content h1 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .modal-content p {
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+  }
+  .score{
+    font-size: 15px;
   }
 }
